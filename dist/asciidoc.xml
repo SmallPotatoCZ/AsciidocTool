@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+
+<article lang="en">
+<articleinfo>
+    <date>2018-08-24</date>
+</articleinfo>
+<simpara># All examples are based on the AsciiDoc User Guide source document</simpara>
+<simpara># HTML output
+asciidoc asciidoc.txt
+firefox asciidoc.html</simpara>
+<simpara># XHTML output
+a2x --format=xhtml asciidoc.txt</simpara>
+<simpara># PDF output (LaTeX processor)
+a2x --format=pdf asciidoc.txt</simpara>
+<simpara># PDF output (FOP processor)
+a2x --fop --format=pdf asciidoc.txt</simpara>
+</article>

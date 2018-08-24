@@ -1,0 +1,14 @@
+# All examples are based on the AsciiDoc User Guide source document
+
+# HTML output
+asciidoc asciidoc.txt
+firefox asciidoc.html
+
+# XHTML output
+a2x --format=xhtml asciidoc.txt
+
+# PDF output (LaTeX processor)
+a2x --format=pdf asciidoc.txt
+
+# PDF output (FOP processor)
+a2x --fop --format=pdf asciidoc.txt
