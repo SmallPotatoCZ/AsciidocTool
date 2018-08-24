@@ -1,14 +1,6 @@
-# All examples are based on the AsciiDoc User Guide source document
-
-# HTML output
-asciidoc asciidoc.txt
-firefox asciidoc.html
-
-# XHTML output
-a2x --format=xhtml asciidoc.txt
-
-# PDF output (LaTeX processor)
-a2x --format=pdf asciidoc.txt
-
-# PDF output (FOP processor)
-a2x --fop --format=pdf asciidoc.txt
+文章的头部
+======
+:Author: SmallPotatoCZ
+:Email: sp.zhangchao@gmail.com
+:Date:  2018-08-24T08:12:00.058Z
+:Revision: 0.0.1
